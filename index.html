@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,66 +8,80 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Condiciones</title>
 </head>
+
 <body>
     <div class="dsp-1">
+        <button onclick="borde()" class="boton-p1"> Haz click aqui!</button>
         <img class="imagen" src="assets/img/6.jpeg" alt="Saki Milagros">
-        <button onclick="borde()" type="reset"> Haz click aqui!</button>
+
 
     </div>
 
 
     <div class="stickers">
         <h1>Elige los ticket que quieres (Maximo 10 unidades en total)</h1>
-        <img src="assets/img/stickte-0.png" alt="cactus">
-        <input type="number" placeholder="Ingresa un valor">
-        <img src="assets/img/sticket-2.png" alt="love">
-        <input type="number" placeholder="Ingresa un valor">
-        <img src="assets/img/3321.png" alt="Cherry">
-        <input type="number" placeholder="Ingresa un valor">
 
+
+        <img src="assets/img/stickte-0.png" alt="cactus">
+        <input class="input1" type="number" value="number"placeholder="Ingresa un valor" min="0">
+
+
+        <img src="assets/img/sticket-2.png" alt="love">
+        <input class="input2" type="number" placeholder="Ingresa un valor" min="0">
+
+
+        <img src="assets/img/3321.png" alt="Cherry">
+        <input class="input3" type="number" placeholder="Ingresa un valor" min="0">
+
+
+        
+        <button class="boton-p2" onclick="botonP2()">Haz click aqui!</button>
+        <p class="resultado-dp2" type="text"></p>
     </div>
 
 
     <div>
         <h2>Ingresa la contraseña</h2>
-        <select class="">
-            <option value="">0</option>
-            <option value="">1</option>
-            <option value="">2</option>
-            <option value="">3</option>
-            <option value="">4</option>
-            <option value="">5</option>
-            <option value="">6</option>
-            <option value="">7</option>
-            <option value="">8</option>
-            <option value="">9</option>
+        <select class="primer-digito">
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
         </select>
 
-        <select name="" id="">
-            <option value="">0</option>
-            <option value="">1</option>
-            <option value="">2</option>
-            <option value="">3</option>
-            <option value="">4</option>
-            <option value="">5</option>
-            <option value="">6</option>
-            <option value="">7</option>
-            <option value="">8</option>
-            <option value="">9</option>
+        <select class="segundo-digito">
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
         </select>
 
-        <select name="" id="">
-            <option value="">0</option>
-            <option value="">1</option>
-            <option value="">2</option>
-            <option value="">3</option>
-            <option value="">4</option>
-            <option value="">5</option>
-            <option value="">6</option>
-            <option value="">7</option>
-            <option value="">8</option>
-            <option value="">9</option>
+        <select class="tercer-digito">
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
         </select>
+        <p class="texto-usurio"></p>
+        <button class="boton-p3" onclick="boton3()">Haz click aqui!</button>
     </div>
 
 
@@ -87,4 +102,5 @@
 
     <script src="assets/js/script.js"></script>
 </body>
+
 </html>

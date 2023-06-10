@@ -2,3 +2,24 @@ img{
     width: 150px;
     height: 150px;
 }
+.dsp-1{
+    display: flex;
+    justify-content: center;
+}
+.buton-p1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+.stickers img{
+    display: flex;
+    flex-direction: column-reverse;
+    width: 150px;
+    height: 150px;
+}
+.stickers input{
+    width: 120px;
+    margin-top: 15px;
+}

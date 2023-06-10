@@ -1,7 +1,8 @@
 # js2
 
 Variables 
-DESAFIO PARTE 1
+DESAFIO PARTE 1 -p1
+DESAFIO PARTE 2 -p2
     imagen = img-prn
     Button = borde
 
