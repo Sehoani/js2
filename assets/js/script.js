@@ -23,8 +23,8 @@ function botonP2() {
 
     if (resultado < 10) {
         console.log('aqui vamos bien ' + resultado);
-        resultadoPublico.innerHTML = 'Llevas ' + resultado + 'Stickers';
-    } else (resultado >= 11)
+        resultadoPublico.innerHTML = 'Llevas ' + resultado + ' Stickers';
+    } else
     {
         console.log('Aqui tambien vamos bien ' + resultado)
         resultadoPublico.innerHTML = 'Lo siento excedes el máximo' + ' llevas ' + resultado + ' en total, recuerda que solo son 10 en total'
