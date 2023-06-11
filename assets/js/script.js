@@ -24,8 +24,7 @@ function botonP2() {
     if (resultado < 10) {
         console.log('aqui vamos bien ' + resultado);
         resultadoPublico.innerHTML = 'Llevas ' + resultado + ' Stickers';
-    } else
-    {
+    } else {
         console.log('Aqui tambien vamos bien ' + resultado)
         resultadoPublico.innerHTML = 'Lo siento excedes el máximo' + ' llevas ' + resultado + ' en total, recuerda que solo son 10 en total'
     }
@@ -36,14 +35,13 @@ function boton3() {
     let pd2 = document.querySelector('.segundo-digito').value
     let pd3 = document.querySelector('.tercer-digito').value
     let contraseñaEntregada = pd1 + pd2 + pd3
-    let contraseñaOk = '911' || '714'
+    let contraseñaOk = '911' && '714'
     let resultado = document.querySelector('.texto-usurio')
     console.log(contraseñaEntregada)
     if (contraseñaOk == contraseñaEntregada) {
         console.log('esto esta bien')
         resultado.innerHTML = 'Contraseña correcta'
-    } else
-    {
+    } else {
         resultado.innerHTML = 'Contraseña Incorrecta'
         console.log('contraseña incorrecta')
     }
