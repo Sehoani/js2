@@ -16,12 +16,14 @@
 .stickers{
     display: flex;
     flex-direction: column;
+    align-items: center;
     margin-top: 150px;
 }
 .card{
     display: flex;
+    align-items: center;
     flex-direction: column;
-    width: 250px;
+    width: 300px;
 }
 .Flex-container{
     display: flex;
@@ -32,11 +34,8 @@
 .stickers img{
     width: 150px;
     height: 150px;
-}
-.titulods2{
     display: flex;
     align-items: center;
-
 }
 .stickers input{
     width: 120px;
@@ -46,7 +45,12 @@
 .boton-p2{
     display: flex;
     justify-content: center;
-    margin-top: 15px;
+    margin-top: 45px;
     width: 200px;
+    height: 30;
+}
+.pass{
+    margin-top: 200px;
+    margin-bottom: 200px;
 }
 

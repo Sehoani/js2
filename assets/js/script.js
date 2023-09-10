@@ -44,9 +44,9 @@ function boton3() {
   console.log(contraseñaEntregada);
   if (contraseñaOk == contraseñaEntregada) {
     console.log("esto esta bien");
-    resultado.innerHTML = "Contraseña correcta";
+    resultado.innerHTML = "Contraseña 1 correcta";
   } else if (contraseña2Ok == contraseñaEntregada) {
-    resultado.innerHTML = "Contraseña correcta";
+    resultado.innerHTML = "Contraseña 2 correcta";
   } else {
     resultado.innerHTML = "Contraseña Incorrecta";
     console.log("contraseña incorrecta");
